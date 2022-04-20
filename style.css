@@ -1,0 +1,192 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .header{
+        min-height: 100vh;
+        width: 100%;
+        background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/GC-Building.jpg);
+        background-position: center;
+        background-size: cover; 
+        position: relative;          
+        } 
+
+    nav{
+        display: flex;
+        padding: 2% 8%;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+        flex: 1;
+       text-align: right;
+}
+
+.nav-links ul li{ 
+                   list-style: decimal;
+                  display: inline-block;
+                  padding: 8px 12px;
+                  position: relative;
+
+}
+
+
+.nav-links ul li a{
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 13px;  
+}              
+
+
+.nav-links ul li::after{
+                
+            content: "";
+            width: 0%;
+            height: 2px;
+            background: #f44836;
+            display: block;
+            margin: auto;
+}
+
+
+.nav-links ul li:hover::after{
+                 
+               width: 100%;
+}
+
+
+nav.sticky{
+    position: fixed;
+     top: 0%;
+     left: 0%;
+     max-width: fit-content;
+    padding: 12px 31%;
+    background: rgba(255,255,255,.5);
+    display: flex;
+    align-items: flex-start ;
+    justify-content: space-between;
+}
+ 
+
+nav.sticky.ul{
+       width: 0%;
+}
+
+
+.second-page{
+        padding: 0%;
+        background-color: rgba(10, 10, 10, 0.5);
+        background-image: url(image/images.jfif);
+        background-position: center;
+        background-size: cover; 
+        position: relative;   
+     }
+
+
+    /* { 
+        box-sizing: content-box;
+
+       
+      }
+      
+       body { 
+        font-family: Arial, Helvetica, sans-serif;
+      } 
+        */
+    
+       .row{
+        width: 90%;
+        padding: 20px;
+        margin: 100px auto;	 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      } 
+      
+    
+      .column{
+        width: 500px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+        transition: 1s;
+    
+      } 
+     
+      /* .column:hover{
+        /* transform: scale(1.1); */
+        /* transform: ;
+        transition: ;
+        transition: 2ms;
+        z-index: 2;
+      } */
+       */
+      /* Responsive columns */
+      /* @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+      
+      /* Style the counter cards */
+      /* .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+      } 
+
+
+.courses{
+    position: relative;
+    padding-left: 10%;
+    padding: 20px;
+    font-family: Arial;
+     background-position: center;
+     align-items: baseline;
+     color: #f44836;    
+}
+
+/* .img{ */
+    /* padding-left: 15%; */
+     /* padding-top: 10%; */
+/* } */
+
+
+/* .card-title{
+           color:blueviolet;
+           white-space:nowrap;
+} */
+.betch{
+      color: darkgray;
+      /* font-family: 'Courier New', Courier, monospace;
+      padding-left: 30%;
+      height: 30%; */
+      white-space: nowrap;
+}
+
+.card-title{
+  color: darkgray;
+  /* font-family: 'Courier New', Courier, monospace;
+  padding-left: 30%;
+  height: 30%; */
+  white-space: nowrap;
+}
+
+.mba{
+  color: darkgray;
+  /* font-family: 'Courier New', Courier, monospace;
+  padding-left: 30%;
+  height: 30%; */
+  white-space: nowrap;
+
+}
