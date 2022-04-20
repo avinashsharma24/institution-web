@@ -1,0 +1,97 @@
+       <html>
+            <head>
+                <meta name="viewport" content="with=device-width, intial-scale+1.0">
+                <Title>University Website</Title>
+        
+                <link rel="stylesheet" href="style.css">
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        
+
+          <body>
+
+      <section class="header">
+ <nav id="navbar">
+  <a href=".html"><img src="image/logo.png" alt="logo"></a>
+
+ <div class="nav-links">
+      <ul id="menu">
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT US</a></li>
+   <li><a href="">PROGRAM</a></li>
+    <li><a href="">CONTACT US</a></li>
+     </ul>
+  </div> </nav>
+                             
+       </section>
+                      
+  <section class="second-page">
+
+         <div class="courses"><h1>COURSES</h1> </div>
+
+                         
+                      
+    <div class="row">
+
+     <div class="column">
+         <div class="card">
+         <a href="#">
+         <img class="img"  src="image/0_5EeozyPZZIefgPaz.jfif" alt="Card image cap" width="400" height="400">
+         </a>
+         <div class="betch">
+            <h3 class="card-title">Bachelor Of Technology</h3>
+       </div>
+                                
+         </div>
+    </div>
+                                 
+    <div class="column">
+    <div class="card">
+                                
+    <a href="#">
+                                    
+    <img class="img"  src="image/bba.jfif" alt="Card image cap" width="400" height="400">
+   </a>
+   <div class="bba">
+     <h3 class="card-title">Bachelor Business Administration</h3>
+     </div>
+     </div>     </div>
+
+   <div class="column">   
+   <div class="card">
+     <a href="#">
+        <img class="img"  src="image/Degree_SoM_ManagementMBA_Hero.jpg" alt="Card image cap" width="400" height="400">
+         </a>
+         <div class="mba">
+      <h3 class="card-title">Master Of Business Administration</h3>
+    </div>
+   </div>
+                              
+         </div>
+                             
+
+         </section>
+                      
+                      
+         <script>
+         var navbar = document.getElementById("navbar");
+          var menu = document.getElementById("menu");
+
+         window.onscroll = function(){
+         if(window.pageYOffset >= menu.offsetTop){
+          navbar.classList.add("sticky");
+            }
+          else{
+       navbar.classList.remove("sticky");
+          }
+           }
+        </script>
+        
+       </body>
+       </head>
+        
+        </html>
+
+        
