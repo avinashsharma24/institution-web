@@ -7,7 +7,7 @@
  .header{
         min-height: 100vh;
         width: 100%;
-        background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/GC-Building.jpg);
+        background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(university.jpeg);
         background-position: center;
         background-size: cover; 
         position: relative;          
@@ -28,6 +28,7 @@ nav img{
 .nav-links{
         flex: 1;
        text-align: right;
+       
 }
 
 .nav-links ul li{ 
@@ -82,12 +83,13 @@ nav.sticky.ul{
 
 
 .second-page{
-        padding: 0%;
-        background-color: rgba(10, 10, 10, 0.5);
-        background-image: url(image/images.jfif);
+        padding: 0%; 
+        min-height: 100vh;
+        width: 100%;
+        background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background.jpeg);
         background-position: center;
         background-size: cover; 
-        position: relative;   
+        position: relative; 
      }
 
 
@@ -113,23 +115,21 @@ nav.sticky.ul{
       
     
       .column{
-        width: 500px;
+        width: 700px;
         margin: 0 10px;
         box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
         transition: 1s;
     
       } 
      
-      /* .column:hover{
-        /* transform: scale(1.1); */
-        /* transform: ;
-        transition: ;
-        transition: 2ms;
+      .column:hover{
+        transform: scale(1.1); 
+        transition: 00ms;
         z-index: 2;
-      } */
-       */
+      } 
+       
       /* Responsive columns */
-      /* @media screen and (max-width: 600px) {
+       @media screen and (max-width: 600px) {
         .column {
           width: 100%;
           display: block;
@@ -144,35 +144,31 @@ nav.sticky.ul{
         text-align: center;
         background-color: #f1f1f1;
       } 
+*/
 
-
-.courses{
-    position: relative;
-    padding-left: 10%;
-    padding: 20px;
-    font-family: Arial;
-     background-position: center;
-     align-items: baseline;
-     color: #f44836;    
-}
-
-/* .img{ */
-    /* padding-left: 15%; */
-     /* padding-top: 10%; */
-/* } */
-
-
-/* .card-title{
-           color:blueviolet;
-           white-space:nowrap;
-} */
 .betch{
       color: darkgray;
       /* font-family: 'Courier New', Courier, monospace;
-      padding-left: 30%;
+      
       height: 30%; */
+      /* padding-left: 10%; */
       white-space: nowrap;
 }
+
+.courses{
+  position: relative;
+  padding-left: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  font-weight: 600;
+ color: #38b9f4;    
+}
+
+.courses{
+        border-top: #38b9f4;
+      }
 
 .card-title{
   color: darkgray;
@@ -190,3 +186,41 @@ nav.sticky.ul{
   white-space: nowrap;
 
 }
+.container{
+      max-width: 1170px;
+      background-color: #f44836;
+      margin: auto;
+      padding: 40px;
+    }
+
+.roww{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}   
+  
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+  margin-bottom: 0;
+
+}
+
+.footer-col{
+  width: 23%;
+  padding: 0 10px;
+}
+/* 
+.footer-col h4::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10;
+      background-color: #e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;    
+} */
