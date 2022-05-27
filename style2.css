@@ -1,0 +1,55 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Lato', sans-serif;
+   box-sizing: border-box;
+   border-radius: 3px;
+    
+}
+
+body{
+    justify-content: space-between;
+    align-items: center;
+   padding: 50px;
+   margin: auto;
+    background: linear-gradient(135deg,#71b6e6,#9b59b6),url(login.jpg); 
+}   
+
+
+.container{
+    background:linear-gradient(rgba(74, 105, 225, 0.7),rgba(13, 26, 79, 0.7));
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 30%;
+    margin-right: 25%;
+    align-items: center;
+    color: white;
+}
+
+
+.Tittle{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .6cm;
+    color: black;
+}
+
+.input-box{
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.numb{
+    text-align: center;
+}
+
+.col-auto{
+          text-align: center;
+}
+
+.pass{
+    display: flex;
+    margin-left: 32%;
+}
+    

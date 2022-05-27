@@ -13,7 +13,7 @@
           <body>
 
       <section class="header">
- <nav id="navbar">
+ <nav id="nav">
   <a href=".html"><img src="logo.jpeg" alt="logo"></a>
 
  <div class="nav-links">
@@ -24,6 +24,20 @@
     <li><a href="">CONTACT US</a></li>
      </ul>
   </div> </nav>
+  
+  <div class="loginbox">
+   <h1>GET STARTED</h1>
+   <p>Username</p>
+   <input type="text" placeholder="Enter Username" >
+   <p>Password</p>
+   <input type="text" placeholder="Enter Password">
+    <input type="submit" name="" value="Login">
+    <a href="#">Lost your Password</a>
+    <a href="index2.html">Don't have an account</a>
+   <form>
+
+   </form>
+  </div>
                              
        </section>
                       
@@ -140,9 +154,9 @@
 
                       
          <script>
-         var navbar = document.getElementById("navbar");
-          var menu = document.getElementById("menu");
-
+         var navbar = document.getElementById("nav");
+          var menu = document.getElementById("menu"); 
+     
          window.onscroll = function(){
          if(window.pageYOffset >= menu.offsetTop){
           navbar.classList.add("sticky");
